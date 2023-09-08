@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "name": "web2",
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev --no-clear"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.1",
+    "nuxt": "3.6.5"
+  },
+  "dependencies": {
+    "typescript": "5.1.6",
+    "vue": "3.3.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "vue-bundle-renderer": "1.0.3"
+    }
+  }
+}
